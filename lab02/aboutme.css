@@ -1,0 +1,74 @@
+﻿body {
+    color: #939396;
+    font-family: Helvetica, Verdana, sans-serif;
+    background-color: #1D2475;
+    background-image: url("images/cse326bg.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+p {
+}
+
+p::first-letter {
+    font-weight:bold;
+    font-size:150%;
+}
+
+ol, ul {
+    font-size:70%;
+}
+ul {
+    list-style-type:square;
+}
+
+dt {
+    font-weight: bold;
+    color: #FFF86B;
+}
+
+h1 {
+    color:#F7931E;
+    font-size: 40pt;
+    text-shadow:-3px 3px green;
+}
+
+h2 {
+    color: #F7931E;
+}
+
+a {
+    text-decoration:none;
+    color: #FF4F4F;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: #FFF86B;
+}
+
+blockquote {
+    text-align:left;
+    color: #D1DFEB;
+}
+
+table, td, th {
+    border:dotted;
+}
+table {
+    border-collapse: collapse;
+}
+
+img {
+    outline-width:medium;
+    outline:thick ridge #F7931E;
+}
+
+#w3 {
+    outline-style: none;
+}
+#css {
+    outline-style: none;
+}
