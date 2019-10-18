@@ -1,0 +1,140 @@
+﻿body
+{
+    background:url("background.png");
+    font-size:8pt;
+    font-family:Verdana;
+}
+
+#banner {
+    height: 50px;
+    background:url("bannerbg.png");
+    background-repeat:repeat-x;
+}
+
+#bn {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-shadow: 3px 3px #999999;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 4px gray;
+    border-style: solid;
+    border-radius: 20px;
+    overflow:hidden;
+}
+
+#content img {
+    float:left;
+}
+
+#critic {
+    width:550px;
+}
+
+#critics1 {
+    float:left;
+    width:47%;
+    margin-top:2%;
+    margin-left:2%;
+}
+
+#critics2 {
+    float:right;
+    width:47%;
+    margin-top:2%;
+    margin-right:2%;
+}
+
+#rottenbig {
+   height:83px;
+   vertical-align:bottom;
+   background-image:url("rbg.png");
+   background-repeat:repeat-x;
+   font-size:48pt;
+   font-weight:bold;
+   color:red;
+}
+
+.review {
+    margin-bottom:20pt;
+}
+
+.review img {
+}
+
+.review q {
+    font-style:italic;
+    font-size:8pt;
+    font-weight:bold;
+}
+
+.text {
+    background-color: #E8DC9B;
+    border: 2px gray;
+    border-style: solid;
+    border-radius: 10pt;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.text img {
+    padding-right:5px;
+}
+
+#poster {
+    width:250px;
+    background-color: #A2B964;
+    float:right;
+}
+
+#poster img {
+    padding-bottom:10pt;
+}
+
+#poster dl {
+    padding:10pt;
+    font-size:8pt;
+    font-family:Arial;
+    line-height:10pt;
+}
+
+#poster dt {
+    font-weight:bold;
+    line-height:10pt;
+}
+
+#poster dd {
+    line-height:10pt;
+}
+
+#bottom {
+    clear:both;
+    margin:-11px;
+    padding:0px;
+    background-color: #A2B964;
+}
+
+#bottom p {
+    padding:5px;
+    text-align:center;
+}
+
+footer {
+    float:right;
+    position:fixed;
+    right:0%;
+    bottom:0%;
+    opacity:0.50;
+}
